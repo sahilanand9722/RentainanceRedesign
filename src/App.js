@@ -211,12 +211,10 @@ const App = () => {
           <Home setNavToggle={setNavToggle} />
         </div>
         <div style={{ minWidth: "100%" }} ref={ref2}>
-          <Problem 
-         setNavToggle={setNavToggle}
-              />
+          <Problem  setNavToggle={setNavToggle}/>
         </div>
         <div style={{ minWidth: "100%" }} ref={ref3}>
-          <Solution setNavToggle={setNavToggle}/>
+          <Solution setNavToggle={setNavToggle} navID={navID}/>
         </div>
         <div style={{ minWidth: "100%" }} ref={ref4}>
           <Usp navID={navID} setNavToggle={setNavToggle} />

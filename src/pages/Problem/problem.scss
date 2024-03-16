@@ -1,0 +1,144 @@
+
+:root {
+  --r1: 13vw;
+  --r2:8vw;
+}
+.prob-main-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: black;
+
+  .prob-left{
+    width: 40%;
+    height: 100%;
+    // border:1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .pbleft-top{
+      position: relative;
+     width: 80%;
+    //  height: 50%;
+     margin: auto;
+    //  border:1px solid yellow;
+     display: flex;
+     flex-direction: column;
+    //  justify-content: space-around;
+    
+     .prob-btn-outer{
+        width: 60%;
+        background: black;
+        border-radius: 2.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #FD3A3A;
+        border-top:  1px solid #FD3A3A;
+        transition: 1s ease-in-out;
+
+        .prob-btn-inner{
+            color:#FD3A3A;
+            font-size: 2.5vw;
+            font-weight: 600;
+            font-family: Poppins;
+            width: 90%;
+            background: linear-gradient(-195deg, rgb(0, 0, 0) 52%, rgb(91, 91, 91) 100%);
+            border-radius: 2vw;
+            // padding: 0.25vw;
+            margin: 0.5vw auto;
+            text-align: center;
+        }
+     }
+     .land-txt{
+      position: absolute;
+      left:10%;
+      top:0%;
+      font-size: 3.5vw;
+      font-style: italic;
+      background: linear-gradient(to bottom, white 45%, #FD3A3A 55%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        transform: scale(0.1);
+        opacity: 0;
+        transition: 1s ease-in-out;
+        // translate: 10vw 5vw;
+     }
+     p{
+        color:white;
+        font-family: Poppins;
+        font-size: 1.1vw;
+        font-weight: 100;
+        line-height: 2.35;
+        text-transform: capitalize;
+        letter-spacing: 0.05vw;
+        margin-top: 1vw;
+     }
+
+    }
+    .pbleft-bottom{
+      position: relative;
+        width: 80%;
+        height: 35%;
+        margin: auto;
+        // border:1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s ease-in-out;
+        
+
+        .pbleft-outer{
+          width: var(--r1);
+          height: var(--r1);
+          border-radius: 100%;
+          background:#222222;
+          border:0.5px solid rgba(255, 255, 255, 0.336);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          -webkit-box-shadow: 0px 0px 22px 1px rgba(255,255,255,1);
+          -moz-box-shadow: 0px 0px 22px 1px rgba(255,255,255,1);
+           box-shadow: 0px 0px 22px 1px rgba(255,255,255,1);
+
+          .pbleft-inner{
+            width: var(--r2);
+            height: var(--r2);
+            border-radius: 100%;
+            background: #1D1D1D;
+            border:0.5px solid rgba(255, 255, 255, 0.336);
+
+            .icon-prob{
+              position: absolute;
+              top:50%;
+              left:50%;
+              transform:translate(-50%,-50%);
+              width: 12.5%;
+              object-fit: contain;
+              transition: 1s ease-in-out;
+              cursor: pointer;
+            }
+
+          }
+        }
+    }
+  }
+  .prob-right{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    // border:1px solid red;
+
+    .rentainance-logo{
+      position: absolute;
+      right:-35%;
+      bottom:-22vw;
+      width: 75%;
+      object-fit: contain;
+      transition: 2s ease-in-out;
+    }
+  }
+}
