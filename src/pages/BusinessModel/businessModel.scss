@@ -138,7 +138,17 @@ transition: 1.25s ease-in-out;
         transition:1.25s ease-in-out;
         margin-right: 3vw;
         // border:1px solid red;
-
+        
+        .bm-arrow{
+          position: absolute;
+          bottom:8vw;
+          left:2vw;
+          width: 4vw;
+          object-fit: contain;
+          transform-origin: bottom left;
+          transform: scale(0);
+          transition:1.25s ease-in-out;
+        }
         .graph1{
             margin:0 2vw;
             .bm-height{
@@ -146,10 +156,21 @@ transition: 1.25s ease-in-out;
                 bottom:-1vw;
                 width: 4vw;
                 height: 2vw;
-                border-top-left-radius: 2vw;
-                border-top-right-radius: 2vw;
+                border-top-left-radius: 1.5vw;
+                border-top-right-radius: 1.5vw;
                 background: linear-gradient(180deg, rgba(212,175,55,1) 22%, rgba(212,175,55,0) 100%);
                 transition:1.25s ease-in-out;
+
+                .bm-house{
+                  position: absolute;
+                  top:0.5vw;
+                  left:50%;
+                  translate:-50%;
+                  width: 2vw;
+                  object-fit: contain;
+                  transform:scale(0);
+                  transition:1.25s ease-in-out;
+                }
             }
             .base-circle{
             width: 4vw;
@@ -170,9 +191,11 @@ transition: 1.25s ease-in-out;
         align-items: flex-end;
         // border:1px solid green;
         border-radius: 2vw;
+        transform:translateX(-100vw);
         // background: linear-gradient(217deg, rgba(253,58,58,1) 3%, rgba(255,208,43,0) 100%);
         // background: linear-gradient(153deg, rgba(253,58,58,1) 1%, rgba(255,208,43,0.24413515406162467) 63%);
         background: linear-gradient(194deg, rgba(253,58,58,1) 2%, rgba(255,208,43,0.23853291316526615) 67%);
+        transition:1.25s ease-in-out;
         .bmcc-inner{
           position: relative;
           width: 99.5%;
@@ -196,6 +219,11 @@ transition: 1.25s ease-in-out;
          h2{
           font-size: 2.5vw;
           margin-left: 1vw;
+
+          span{
+            font-size: 2.4vw;
+            font-weight: 200;
+          }
          }
          .bm-border{
           position: absolute;
@@ -236,26 +264,43 @@ transition: 1.25s ease-in-out;
       }
       .price-chart{
         position: absolute;
-        bottom:3vw;
+        bottom:2vw;
         left:9vw;
         width: 35%;
         display: flex;
-        justify-content: flex-end;
-        border:1px solid red;
+        justify-content: space-between;
+        align-items: center;
+        // border:1px solid red;
         
         .bm-btn{
-         
+         transform: translateY(10vw);
+         transition:1.25s ease-in-out;
           p{
           font-size: 1.2vw;
-          padding:1vw;
+          padding:0.75vw;
           background-color: white;
-          border-radius: 1vw;
+          border-radius: 0.5vw;
 
           &:hover{
-
+           background-color: #FD3A3A;
+           color:white;
           }
          }
 
+        }
+        .back-btn-bm{
+          width: 10%;
+          object-fit: contain;
+          cursor:pointer;
+          transform: scale(0);
+          transition:1.25s ease-in-out;
+        }
+        .fwd-btn-bm{
+          width: 10%;
+          object-fit: contain;
+          cursor:pointer;
+         transform: translate(10vw,10vw);
+          transition:1.25s ease-in-out;
         }
       }
     }
