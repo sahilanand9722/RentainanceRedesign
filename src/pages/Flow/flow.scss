@@ -1,0 +1,265 @@
+.flow-main-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  // border:1px solid red;
+
+  .flow-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .ellipseR {
+    position: absolute;
+    top: 10vw;
+    left: 50%;
+    translate: -50%;
+    width: 45vw;
+    height: 2vw;
+    border-radius: 50%;
+    background: rgba(253, 58, 58, 0.44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 3.5vw 7vw -0.5vw rgba(253,58,58,1);
+    -moz-box-shadow: 0px 3.5vw 7vw -0.5vw  rgba(253,58,58,1);
+    box-shadow: 0px 3.5vw 7vw -0.5vw  rgba(253,58,58,1);
+    .ellipseW {
+      width: 25vw;
+      height: 0.7vw;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.6);
+      -webkit-box-shadow: 0px 0px 3vw 0.25vw rgba(255, 255, 255, 1);
+      -moz-box-shadow: 0px 0px 3vw 0.25vw rgba(255, 255, 255, 1);
+      box-shadow: 0px 0px 3vw 0.25vw rgba(255, 255, 255, 1);
+    }
+  }
+  .flow-heading{
+    position: absolute;
+    top:4.5vw;
+    left:50%;
+    translate:-50%;
+    font-size: 4.5vw;
+    font-weight: 400;
+    color:white;
+    text-shadow: 0.2vw 0.2vw #FD3A3A;
+  }
+  .flow-semiC1{
+    position: absolute;
+    left:50%;
+    translate:-50%;
+    bottom:2.5vw;
+    width: 38.5vw;
+    height:24vw;
+    border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw;
+    background: linear-gradient(180deg, rgba(255,53,53,0.2) 2%, rgba(255,53,53,0) 67%);
+  }
+  .flow-semiC2{
+    position: absolute;
+    left:50%;
+    translate:-50%;
+    bottom:2.5vw;
+    width: 34vw;
+    height:21vw;
+    border-top-left-radius: 17vw;
+    border-top-right-radius: 17vw;
+    background: linear-gradient(180deg, rgba(255,53,53,0.3) 2%, rgba(255,53,53,0) 67%);
+  }
+  .flow-semiC3{
+    position: absolute;
+    left:50%;
+    translate:-50%;
+    bottom:2.5vw;
+    width: 30vw;
+    height:18vw;
+    border-top-left-radius: 15vw;
+    border-top-right-radius: 15vw;
+    background: linear-gradient(180deg, rgba(255,53,53,0.5) 2%, rgba(255,53,53,0) 67%);
+  }
+  .flow-semiC4{
+    position: absolute;
+    left:50%;
+    translate:-50%;
+    bottom:2.5vw;
+    width: 25vw;
+    height:15vw;
+    border-top-left-radius: 12.5vw;
+    border-top-right-radius: 12.5vw;
+    background: linear-gradient(180deg, rgba(255,53,53,0.6) 2%, rgba(255,53,53,0) 62%);
+  }
+  .scope-text-container{
+    position: relative;
+    top:16vw;
+    width: 85%;
+    // height: 50%;
+    left:50%;
+    translate: -50%;
+    // border:1px solid red;
+    
+    .ldc{
+        position: absolute;
+        top:0vw;
+        width: 30%;
+        height:4vw;
+        // border:1px solid yellow;
+        background: linear-gradient(9deg, rgba(0,0,0,0.8) 63%, rgba(255,255,255,1) 90%);
+        // background: red;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        border-radius: 1vw;
+        transition:1s ease-in-out;
+        
+        .flow-inner-div{
+            position: relative;
+            width: 99.6%;
+            height: 98.5%;
+            background: white;
+            border-radius: 1vw;
+         background: rgb(60,60,60);
+background: linear-gradient(80deg, rgba(60,60,60,1) 59%, rgba(10,10,10,1) 90%);
+display: flex;
+align-items: center;
+cursor:pointer;
+// transition:1s ease-in-out;
+         z-index: 1;
+         
+         p{
+            width: 90%;
+          color:white;
+          opacity:0.7;
+          font-size: 1.05vw;
+          margin-left: 1vw;
+         }
+         
+         img{
+            position: absolute;
+            top:50%;
+            transform:translateY(-50%);
+            width: 10%;
+            object-fit: contain;
+            right:0.5vw;
+           opacity:0;
+         }
+         .dull-key{
+            z-index: 4;
+            opacity:1;
+         }
+        }
+    }
+    .ld2{
+        top:6.5vw;
+        left:-2vw;
+    }
+    .ld3{
+        width: 27.5%;
+        top:13vw;
+        left:-0.75vw;
+    }
+    .ld4{
+        width: 25%;
+        top:19.5vw;
+        left:2.75vw;
+    }
+    .ld5{
+        width: 22.5%;
+        top:25.5vw;
+        left:7.75vw;
+    }
+
+        
+    .rdc{
+        position: absolute;
+        top:0vw;
+        right:0;
+        width: 30%;
+        height:4vw;
+        // border:1px solid yellow;
+        background: linear-gradient(9deg, rgba(0,0,0,0.8) 63%, rgba(255,255,255,1) 90%);
+        // background: red;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        border-radius: 1vw;
+        transition:1s ease-in-out;
+
+        .flow-inner-div{
+         position: relative;
+         width: 99.6%;
+         height: 98.5%;
+         background: white;
+         border-radius: 1vw;
+         background: rgb(60,60,60);
+background: linear-gradient(80deg, rgba(60,60,60,1) 59%, rgba(10,10,10,1) 90%);
+display: flex;
+align-items: center;
+cursor:pointer;
+         z-index: 1;
+        //  transition:1s ease-in-out;
+         
+         p{
+            width: 90%;
+          color:white;
+        //   opacity:0.7;
+          font-size: 1.05vw;
+          margin-left: 1vw;
+         }
+         
+         img{
+            position: absolute;
+            top:50%;
+            transform:translateY(-50%);
+            width: 10%;
+            object-fit: contain;
+            right:0.5vw;
+           opacity:0;
+         }
+         .dull-key{
+            z-index: 4;
+            opacity:1;
+         }
+        }
+    }
+    .rd2{
+        top:6.5vw;
+        right:-2vw;
+    }
+    .rd3{
+        width: 27.5%;
+        top:13vw;
+        right:-0.75vw;
+    }
+    .rd4{
+        width: 25%;
+        top:19.5vw;
+        right:2.75vw;
+    }
+    .rd5{
+        width: 22.5%;
+        top:25.5vw;
+        right:7.75vw;
+    }
+
+    .flow-mobile{
+        width: 18%;
+        object-fit: contain;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,0%) scale(0) ;
+        transform-origin: bottom right;
+        transition: 1s ease-in-out;
+    }
+  }
+}
+
+@media only screen and (max-width:1280px){
+    .flow-main-container {
+
+        .flow-semiC1,.flow-semiC2,.flow-semiC3,.flow-semiC4{
+            bottom:0vw;
+        }
+    }
+}

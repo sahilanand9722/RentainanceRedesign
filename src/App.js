@@ -248,7 +248,7 @@ const App = () => {
           <Ask navID={navID} setNavToggle={setNavToggle}/>
         </div>
         <div style={{ minWidth: "100%" }} ref={ref14}>
-        <ThankYou setNavToggle={setNavToggle} />
+        <ThankYou navID={navID} setNavToggle={setNavToggle} />
         </div>
         
       </div>
