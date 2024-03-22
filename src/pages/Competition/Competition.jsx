@@ -35,7 +35,7 @@ const Competition = ({ navID }) => {
       setFlag1(true);
     }, 1000);
 
-    if (navID !== 8) {
+    if (navID !== 7) {
     setFlag(0);
     setFlag1(false);
     }

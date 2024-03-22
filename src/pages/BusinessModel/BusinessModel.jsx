@@ -34,7 +34,7 @@ const BusinessModel = ({ navID }) => {
       if (count === 3) setCount(4);
     },2000);
 
-    if (navID !== 10) {
+    if (navID !== 9) {
       setCount(0);
       setFlag1(false);
     }

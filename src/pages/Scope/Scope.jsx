@@ -9,7 +9,7 @@ import ThirdE from "../../Img/lasteye.png"
 const Scope = ({ navID }) => {
   const [count, setcount] = useState(0);
   useEffect(() => {
-    if (navID === 5) {
+    if (navID === 4) {
       let x = setTimeout(() => {
         setcount(1);
       }, 500);

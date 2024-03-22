@@ -217,35 +217,35 @@ const App = () => {
           <Solution setNavToggle={setNavToggle} navID={navID}/>
         </div>
         <div style={{ minWidth: "100%" }} ref={ref4}>
-          <Usp navID={navID} setNavToggle={setNavToggle} />
-        </div>
-        <div style={{ minWidth: "100%" }} ref={ref5}>
           <Flow setNavToggle={setNavToggle} />
         </div>
-        <div style={{ minWidth: "100%" }} ref={ref6}>
+        <div style={{ minWidth: "100%" }} ref={ref5}>
           <Scope navID={navID} setNavToggle={setNavToggle} />
         </div>
-        <div style={{ minWidth: "100%" }} ref={ref7}>
+        <div style={{ minWidth: "100%" }} ref={ref6}>
           <GTM navID={navID} setNavToggle={setNavToggle} />
         </div>
-        <div style={{ minWidth: "100%" }} ref={ref8}>
+        <div style={{ minWidth: "100%" }} ref={ref7}>
         <Marketing setNavToggle={setNavToggle} />
           
         </div>
-        <div style={{ minWidth: "100%" }} ref={ref9}>
+        <div style={{ minWidth: "100%" }} ref={ref8}>
         <Competition navID={navID} setNavToggle={setNavToggle} />
         </div>
-        <div style={{ minWidth: "100%" }} ref={ref10}>
+        <div style={{ minWidth: "100%" }} ref={ref9}>
         <CompetitiveAdvantage setNavToggle={setNavToggle} />
         </div>
-        <div style={{ minWidth: "100%" }} ref={ref11}>
+        <div style={{ minWidth: "100%" }} ref={ref10}>
         <BusinessModel navID={navID} setNavToggle={setNavToggle} />
         </div>
-        <div style={{ minWidth: "100%" }} ref={ref12}>
+        <div style={{ minWidth: "100%" }} ref={ref11}>
         <RoadMap navID={navID} setNavToggle={setNavToggle} />
         </div>
-        <div style={{ minWidth: "100%" }} ref={ref13}>
+        <div style={{ minWidth: "100%" }} ref={ref12}>
           <Ask navID={navID} setNavToggle={setNavToggle}/>
+        </div>
+        <div style={{ minWidth: "100%" }} ref={ref13}>
+          <Usp navID={navID} setNavToggle={setNavToggle} />
         </div>
         <div style={{ minWidth: "100%" }} ref={ref14}>
         <ThankYou navID={navID} setNavToggle={setNavToggle} />
